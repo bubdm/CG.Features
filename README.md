@@ -1,13 +1,13 @@
 # CG.Features: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Features/_apis/build/status/CodeGator.CG.Features?branchName=master)](https://dev.azure.com/codegator/CG.Features/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/codegator/CG.Features/_apis/build/status/CodeGator.CG.Features?branchName=main)](https://dev.azure.com/codegator/CG.Features/_build/latest?definitionId=53&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Features/)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Features.svg?style=flat)](https://nuget.org/packages/CG.Features)
-![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Features/1)
+![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Features/53)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Features/discussions)
 
 #### What does it do?
-The package contains features extensions used by other CodeGator packages.
+The package contains feature extensions used by other CodeGator packages.
 
 #### What platform(s) does it support?
 * .NET 5.x or higher
