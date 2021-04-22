@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Primitives;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace CG.Features
 {
@@ -82,6 +83,29 @@ namespace CG.Features
 
         /// <inheritdoc />
         public virtual void Load() { }
+
+        #endregion
+
+        // *******************************************************************
+        // Protected methods.
+        // *******************************************************************
+
+        #region Protected methods
+
+        /// <summary>
+        /// This method triggers the reload change token and creates a new one.
+        /// </summary>
+        protected void OnReload()
+        {
+            // Get the previous token.
+            var previousToken = Interlocked.Exchange(
+                ref _reloadToken, 
+                new FeatureSetReloadToken()
+                );
+
+            // Reload the token.
+            previousToken.OnReload();
+        }
 
         #endregion
     }
