@@ -292,6 +292,19 @@ references:
   isSpec: "True"
   fullName: CG.Features.FeatureSetProviderBase.Load
   nameWithType: FeatureSetProviderBase.Load
+- uid: CG.Features.FeatureSetProviderBase.OnReload
+  name: OnReload()
+  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_OnReload
+  commentId: M:CG.Features.FeatureSetProviderBase.OnReload
+  fullName: CG.Features.FeatureSetProviderBase.OnReload()
+  nameWithType: FeatureSetProviderBase.OnReload()
+- uid: CG.Features.FeatureSetProviderBase.OnReload*
+  name: OnReload
+  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_OnReload_
+  commentId: Overload:CG.Features.FeatureSetProviderBase.OnReload
+  isSpec: "True"
+  fullName: CG.Features.FeatureSetProviderBase.OnReload
+  nameWithType: FeatureSetProviderBase.OnReload
 - uid: CG.Features.FeatureSetProviderBase.Set(System.String,System.Boolean)
   name: Set(String, Boolean)
   href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_Set_System_String_System_Boolean_
