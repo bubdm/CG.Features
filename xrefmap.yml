@@ -7,70 +7,19 @@ references:
   commentId: N:CG.Features
   fullName: CG.Features
   nameWithType: CG.Features
-- uid: CG.Features.ChainedFeatureSetProvider
-  name: ChainedFeatureSetProvider
-  href: api/CG.Features.ChainedFeatureSetProvider.html
-  commentId: T:CG.Features.ChainedFeatureSetProvider
-  fullName: CG.Features.ChainedFeatureSetProvider
-  nameWithType: ChainedFeatureSetProvider
-- uid: CG.Features.ChainedFeatureSetProvider.#ctor(CG.Features.ChainedFeatureSetSource)
-  name: ChainedFeatureSetProvider(ChainedFeatureSetSource)
-  href: api/CG.Features.ChainedFeatureSetProvider.html#CG_Features_ChainedFeatureSetProvider__ctor_CG_Features_ChainedFeatureSetSource_
-  commentId: M:CG.Features.ChainedFeatureSetProvider.#ctor(CG.Features.ChainedFeatureSetSource)
-  fullName: CG.Features.ChainedFeatureSetProvider.ChainedFeatureSetProvider(CG.Features.ChainedFeatureSetSource)
-  nameWithType: ChainedFeatureSetProvider.ChainedFeatureSetProvider(ChainedFeatureSetSource)
-- uid: CG.Features.ChainedFeatureSetProvider.#ctor*
-  name: ChainedFeatureSetProvider
-  href: api/CG.Features.ChainedFeatureSetProvider.html#CG_Features_ChainedFeatureSetProvider__ctor_
-  commentId: Overload:CG.Features.ChainedFeatureSetProvider.#ctor
-  isSpec: "True"
-  fullName: CG.Features.ChainedFeatureSetProvider.ChainedFeatureSetProvider
-  nameWithType: ChainedFeatureSetProvider.ChainedFeatureSetProvider
-- uid: CG.Features.ChainedFeatureSetSource
-  name: ChainedFeatureSetSource
-  href: api/CG.Features.ChainedFeatureSetSource.html
-  commentId: T:CG.Features.ChainedFeatureSetSource
-  fullName: CG.Features.ChainedFeatureSetSource
-  nameWithType: ChainedFeatureSetSource
-- uid: CG.Features.ChainedFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  name: Build(IFeatureSetBuilder)
-  href: api/CG.Features.ChainedFeatureSetSource.html#CG_Features_ChainedFeatureSetSource_Build_CG_Features_IFeatureSetBuilder_
-  commentId: M:CG.Features.ChainedFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  fullName: CG.Features.ChainedFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  nameWithType: ChainedFeatureSetSource.Build(IFeatureSetBuilder)
-- uid: CG.Features.ChainedFeatureSetSource.Build*
-  name: Build
-  href: api/CG.Features.ChainedFeatureSetSource.html#CG_Features_ChainedFeatureSetSource_Build_
-  commentId: Overload:CG.Features.ChainedFeatureSetSource.Build
-  isSpec: "True"
-  fullName: CG.Features.ChainedFeatureSetSource.Build
-  nameWithType: ChainedFeatureSetSource.Build
-- uid: CG.Features.ChainedFeatureSetSource.FeatureSet
-  name: FeatureSet
-  href: api/CG.Features.ChainedFeatureSetSource.html#CG_Features_ChainedFeatureSetSource_FeatureSet
-  commentId: P:CG.Features.ChainedFeatureSetSource.FeatureSet
-  fullName: CG.Features.ChainedFeatureSetSource.FeatureSet
-  nameWithType: ChainedFeatureSetSource.FeatureSet
-- uid: CG.Features.ChainedFeatureSetSource.FeatureSet*
-  name: FeatureSet
-  href: api/CG.Features.ChainedFeatureSetSource.html#CG_Features_ChainedFeatureSetSource_FeatureSet_
-  commentId: Overload:CG.Features.ChainedFeatureSetSource.FeatureSet
-  isSpec: "True"
-  fullName: CG.Features.ChainedFeatureSetSource.FeatureSet
-  nameWithType: ChainedFeatureSetSource.FeatureSet
 - uid: CG.Features.FeatureSet
   name: FeatureSet
   href: api/CG.Features.FeatureSet.html
   commentId: T:CG.Features.FeatureSet
   fullName: CG.Features.FeatureSet
   nameWithType: FeatureSet
-- uid: CG.Features.FeatureSet.#ctor(System.Collections.Generic.IList{CG.Features.IFeatureSetProvider})
+- uid: CG.Features.FeatureSet.#ctor(System.Collections.Generic.IList{CG.Features.Providers.IFeatureSetProvider})
   name: FeatureSet(IList<IFeatureSetProvider>)
-  href: api/CG.Features.FeatureSet.html#CG_Features_FeatureSet__ctor_System_Collections_Generic_IList_CG_Features_IFeatureSetProvider__
-  commentId: M:CG.Features.FeatureSet.#ctor(System.Collections.Generic.IList{CG.Features.IFeatureSetProvider})
+  href: api/CG.Features.FeatureSet.html#CG_Features_FeatureSet__ctor_System_Collections_Generic_IList_CG_Features_Providers_IFeatureSetProvider__
+  commentId: M:CG.Features.FeatureSet.#ctor(System.Collections.Generic.IList{CG.Features.Providers.IFeatureSetProvider})
   name.vb: FeatureSet(IList(Of IFeatureSetProvider))
-  fullName: CG.Features.FeatureSet.FeatureSet(System.Collections.Generic.IList<CG.Features.IFeatureSetProvider>)
-  fullName.vb: CG.Features.FeatureSet.FeatureSet(System.Collections.Generic.IList(Of CG.Features.IFeatureSetProvider))
+  fullName: CG.Features.FeatureSet.FeatureSet(System.Collections.Generic.IList<CG.Features.Providers.IFeatureSetProvider>)
+  fullName.vb: CG.Features.FeatureSet.FeatureSet(System.Collections.Generic.IList(Of CG.Features.Providers.IFeatureSetProvider))
   nameWithType: FeatureSet.FeatureSet(IList<IFeatureSetProvider>)
   nameWithType.vb: FeatureSet.FeatureSet(IList(Of IFeatureSetProvider))
 - uid: CG.Features.FeatureSet.#ctor*
@@ -141,11 +90,11 @@ references:
   commentId: T:CG.Features.FeatureSetBuilder
   fullName: CG.Features.FeatureSetBuilder
   nameWithType: FeatureSetBuilder
-- uid: CG.Features.FeatureSetBuilder.Add(CG.Features.IFeatureSetSource)
+- uid: CG.Features.FeatureSetBuilder.Add(CG.Features.Sources.IFeatureSetSource)
   name: Add(IFeatureSetSource)
-  href: api/CG.Features.FeatureSetBuilder.html#CG_Features_FeatureSetBuilder_Add_CG_Features_IFeatureSetSource_
-  commentId: M:CG.Features.FeatureSetBuilder.Add(CG.Features.IFeatureSetSource)
-  fullName: CG.Features.FeatureSetBuilder.Add(CG.Features.IFeatureSetSource)
+  href: api/CG.Features.FeatureSetBuilder.html#CG_Features_FeatureSetBuilder_Add_CG_Features_Sources_IFeatureSetSource_
+  commentId: M:CG.Features.FeatureSetBuilder.Add(CG.Features.Sources.IFeatureSetSource)
+  fullName: CG.Features.FeatureSetBuilder.Add(CG.Features.Sources.IFeatureSetSource)
   nameWithType: FeatureSetBuilder.Add(IFeatureSetSource)
 - uid: CG.Features.FeatureSetBuilder.Add*
   name: Add
@@ -234,106 +183,6 @@ references:
   isSpec: "True"
   fullName: CG.Features.FeatureSetBuilderExtensions.AddInMemoryCollection
   nameWithType: FeatureSetBuilderExtensions.AddInMemoryCollection
-- uid: CG.Features.FeatureSetProviderBase
-  name: FeatureSetProviderBase
-  href: api/CG.Features.FeatureSetProviderBase.html
-  commentId: T:CG.Features.FeatureSetProviderBase
-  fullName: CG.Features.FeatureSetProviderBase
-  nameWithType: FeatureSetProviderBase
-- uid: CG.Features.FeatureSetProviderBase.#ctor
-  name: FeatureSetProviderBase()
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase__ctor
-  commentId: M:CG.Features.FeatureSetProviderBase.#ctor
-  fullName: CG.Features.FeatureSetProviderBase.FeatureSetProviderBase()
-  nameWithType: FeatureSetProviderBase.FeatureSetProviderBase()
-- uid: CG.Features.FeatureSetProviderBase.#ctor*
-  name: FeatureSetProviderBase
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase__ctor_
-  commentId: Overload:CG.Features.FeatureSetProviderBase.#ctor
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetProviderBase.FeatureSetProviderBase
-  nameWithType: FeatureSetProviderBase.FeatureSetProviderBase
-- uid: CG.Features.FeatureSetProviderBase.Data
-  name: Data
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_Data
-  commentId: P:CG.Features.FeatureSetProviderBase.Data
-  fullName: CG.Features.FeatureSetProviderBase.Data
-  nameWithType: FeatureSetProviderBase.Data
-- uid: CG.Features.FeatureSetProviderBase.Data*
-  name: Data
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_Data_
-  commentId: Overload:CG.Features.FeatureSetProviderBase.Data
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetProviderBase.Data
-  nameWithType: FeatureSetProviderBase.Data
-- uid: CG.Features.FeatureSetProviderBase.GetReloadToken
-  name: GetReloadToken()
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_GetReloadToken
-  commentId: M:CG.Features.FeatureSetProviderBase.GetReloadToken
-  fullName: CG.Features.FeatureSetProviderBase.GetReloadToken()
-  nameWithType: FeatureSetProviderBase.GetReloadToken()
-- uid: CG.Features.FeatureSetProviderBase.GetReloadToken*
-  name: GetReloadToken
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_GetReloadToken_
-  commentId: Overload:CG.Features.FeatureSetProviderBase.GetReloadToken
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetProviderBase.GetReloadToken
-  nameWithType: FeatureSetProviderBase.GetReloadToken
-- uid: CG.Features.FeatureSetProviderBase.Load
-  name: Load()
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_Load
-  commentId: M:CG.Features.FeatureSetProviderBase.Load
-  fullName: CG.Features.FeatureSetProviderBase.Load()
-  nameWithType: FeatureSetProviderBase.Load()
-- uid: CG.Features.FeatureSetProviderBase.Load*
-  name: Load
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_Load_
-  commentId: Overload:CG.Features.FeatureSetProviderBase.Load
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetProviderBase.Load
-  nameWithType: FeatureSetProviderBase.Load
-- uid: CG.Features.FeatureSetProviderBase.OnReload
-  name: OnReload()
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_OnReload
-  commentId: M:CG.Features.FeatureSetProviderBase.OnReload
-  fullName: CG.Features.FeatureSetProviderBase.OnReload()
-  nameWithType: FeatureSetProviderBase.OnReload()
-- uid: CG.Features.FeatureSetProviderBase.OnReload*
-  name: OnReload
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_OnReload_
-  commentId: Overload:CG.Features.FeatureSetProviderBase.OnReload
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetProviderBase.OnReload
-  nameWithType: FeatureSetProviderBase.OnReload
-- uid: CG.Features.FeatureSetProviderBase.Set(System.String,System.Boolean)
-  name: Set(String, Boolean)
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_Set_System_String_System_Boolean_
-  commentId: M:CG.Features.FeatureSetProviderBase.Set(System.String,System.Boolean)
-  fullName: CG.Features.FeatureSetProviderBase.Set(System.String, System.Boolean)
-  nameWithType: FeatureSetProviderBase.Set(String, Boolean)
-- uid: CG.Features.FeatureSetProviderBase.Set*
-  name: Set
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_Set_
-  commentId: Overload:CG.Features.FeatureSetProviderBase.Set
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetProviderBase.Set
-  nameWithType: FeatureSetProviderBase.Set
-- uid: CG.Features.FeatureSetProviderBase.TryGet(System.String,System.Boolean@)
-  name: TryGet(String, out Boolean)
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_TryGet_System_String_System_Boolean__
-  commentId: M:CG.Features.FeatureSetProviderBase.TryGet(System.String,System.Boolean@)
-  name.vb: TryGet(String, ByRef Boolean)
-  fullName: CG.Features.FeatureSetProviderBase.TryGet(System.String, out System.Boolean)
-  fullName.vb: CG.Features.FeatureSetProviderBase.TryGet(System.String, ByRef System.Boolean)
-  nameWithType: FeatureSetProviderBase.TryGet(String, out Boolean)
-  nameWithType.vb: FeatureSetProviderBase.TryGet(String, ByRef Boolean)
-- uid: CG.Features.FeatureSetProviderBase.TryGet*
-  name: TryGet
-  href: api/CG.Features.FeatureSetProviderBase.html#CG_Features_FeatureSetProviderBase_TryGet_
-  commentId: Overload:CG.Features.FeatureSetProviderBase.TryGet
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetProviderBase.TryGet
-  nameWithType: FeatureSetProviderBase.TryGet
 - uid: CG.Features.FeatureSetReloadToken
   name: FeatureSetReloadToken
   href: api/CG.Features.FeatureSetReloadToken.html
@@ -395,25 +244,6 @@ references:
   isSpec: "True"
   fullName: CG.Features.FeatureSetReloadToken.RegisterChangeCallback
   nameWithType: FeatureSetReloadToken.RegisterChangeCallback
-- uid: CG.Features.FeatureSetSourceBase
-  name: FeatureSetSourceBase
-  href: api/CG.Features.FeatureSetSourceBase.html
-  commentId: T:CG.Features.FeatureSetSourceBase
-  fullName: CG.Features.FeatureSetSourceBase
-  nameWithType: FeatureSetSourceBase
-- uid: CG.Features.FeatureSetSourceBase.Build(CG.Features.IFeatureSetBuilder)
-  name: Build(IFeatureSetBuilder)
-  href: api/CG.Features.FeatureSetSourceBase.html#CG_Features_FeatureSetSourceBase_Build_CG_Features_IFeatureSetBuilder_
-  commentId: M:CG.Features.FeatureSetSourceBase.Build(CG.Features.IFeatureSetBuilder)
-  fullName: CG.Features.FeatureSetSourceBase.Build(CG.Features.IFeatureSetBuilder)
-  nameWithType: FeatureSetSourceBase.Build(IFeatureSetBuilder)
-- uid: CG.Features.FeatureSetSourceBase.Build*
-  name: Build
-  href: api/CG.Features.FeatureSetSourceBase.html#CG_Features_FeatureSetSourceBase_Build_
-  commentId: Overload:CG.Features.FeatureSetSourceBase.Build
-  isSpec: "True"
-  fullName: CG.Features.FeatureSetSourceBase.Build
-  nameWithType: FeatureSetSourceBase.Build
 - uid: CG.Features.IFeatureSet
   name: IFeatureSet
   href: api/CG.Features.IFeatureSet.html
@@ -455,11 +285,11 @@ references:
   commentId: T:CG.Features.IFeatureSetBuilder
   fullName: CG.Features.IFeatureSetBuilder
   nameWithType: IFeatureSetBuilder
-- uid: CG.Features.IFeatureSetBuilder.Add(CG.Features.IFeatureSetSource)
+- uid: CG.Features.IFeatureSetBuilder.Add(CG.Features.Sources.IFeatureSetSource)
   name: Add(IFeatureSetSource)
-  href: api/CG.Features.IFeatureSetBuilder.html#CG_Features_IFeatureSetBuilder_Add_CG_Features_IFeatureSetSource_
-  commentId: M:CG.Features.IFeatureSetBuilder.Add(CG.Features.IFeatureSetSource)
-  fullName: CG.Features.IFeatureSetBuilder.Add(CG.Features.IFeatureSetSource)
+  href: api/CG.Features.IFeatureSetBuilder.html#CG_Features_IFeatureSetBuilder_Add_CG_Features_Sources_IFeatureSetSource_
+  commentId: M:CG.Features.IFeatureSetBuilder.Add(CG.Features.Sources.IFeatureSetSource)
+  fullName: CG.Features.IFeatureSetBuilder.Add(CG.Features.Sources.IFeatureSetSource)
   nameWithType: IFeatureSetBuilder.Add(IFeatureSetSource)
 - uid: CG.Features.IFeatureSetBuilder.Add*
   name: Add
@@ -507,146 +337,252 @@ references:
   isSpec: "True"
   fullName: CG.Features.IFeatureSetBuilder.Sources
   nameWithType: IFeatureSetBuilder.Sources
-- uid: CG.Features.IFeatureSetProvider
-  name: IFeatureSetProvider
-  href: api/CG.Features.IFeatureSetProvider.html
-  commentId: T:CG.Features.IFeatureSetProvider
-  fullName: CG.Features.IFeatureSetProvider
-  nameWithType: IFeatureSetProvider
-- uid: CG.Features.IFeatureSetProvider.GetReloadToken
+- uid: CG.Features.Providers
+  name: CG.Features.Providers
+  href: api/CG.Features.Providers.html
+  commentId: N:CG.Features.Providers
+  fullName: CG.Features.Providers
+  nameWithType: CG.Features.Providers
+- uid: CG.Features.Providers.ChainedFeatureSetProvider
+  name: ChainedFeatureSetProvider
+  href: api/CG.Features.Providers.ChainedFeatureSetProvider.html
+  commentId: T:CG.Features.Providers.ChainedFeatureSetProvider
+  fullName: CG.Features.Providers.ChainedFeatureSetProvider
+  nameWithType: ChainedFeatureSetProvider
+- uid: CG.Features.Providers.ChainedFeatureSetProvider.#ctor(CG.Features.Sources.ChainedFeatureSetSource)
+  name: ChainedFeatureSetProvider(ChainedFeatureSetSource)
+  href: api/CG.Features.Providers.ChainedFeatureSetProvider.html#CG_Features_Providers_ChainedFeatureSetProvider__ctor_CG_Features_Sources_ChainedFeatureSetSource_
+  commentId: M:CG.Features.Providers.ChainedFeatureSetProvider.#ctor(CG.Features.Sources.ChainedFeatureSetSource)
+  fullName: CG.Features.Providers.ChainedFeatureSetProvider.ChainedFeatureSetProvider(CG.Features.Sources.ChainedFeatureSetSource)
+  nameWithType: ChainedFeatureSetProvider.ChainedFeatureSetProvider(ChainedFeatureSetSource)
+- uid: CG.Features.Providers.ChainedFeatureSetProvider.#ctor*
+  name: ChainedFeatureSetProvider
+  href: api/CG.Features.Providers.ChainedFeatureSetProvider.html#CG_Features_Providers_ChainedFeatureSetProvider__ctor_
+  commentId: Overload:CG.Features.Providers.ChainedFeatureSetProvider.#ctor
+  isSpec: "True"
+  fullName: CG.Features.Providers.ChainedFeatureSetProvider.ChainedFeatureSetProvider
+  nameWithType: ChainedFeatureSetProvider.ChainedFeatureSetProvider
+- uid: CG.Features.Providers.FeatureSetProviderBase
+  name: FeatureSetProviderBase
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html
+  commentId: T:CG.Features.Providers.FeatureSetProviderBase
+  fullName: CG.Features.Providers.FeatureSetProviderBase
+  nameWithType: FeatureSetProviderBase
+- uid: CG.Features.Providers.FeatureSetProviderBase.#ctor
+  name: FeatureSetProviderBase()
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase__ctor
+  commentId: M:CG.Features.Providers.FeatureSetProviderBase.#ctor
+  fullName: CG.Features.Providers.FeatureSetProviderBase.FeatureSetProviderBase()
+  nameWithType: FeatureSetProviderBase.FeatureSetProviderBase()
+- uid: CG.Features.Providers.FeatureSetProviderBase.#ctor*
+  name: FeatureSetProviderBase
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase__ctor_
+  commentId: Overload:CG.Features.Providers.FeatureSetProviderBase.#ctor
+  isSpec: "True"
+  fullName: CG.Features.Providers.FeatureSetProviderBase.FeatureSetProviderBase
+  nameWithType: FeatureSetProviderBase.FeatureSetProviderBase
+- uid: CG.Features.Providers.FeatureSetProviderBase.Data
+  name: Data
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_Data
+  commentId: P:CG.Features.Providers.FeatureSetProviderBase.Data
+  fullName: CG.Features.Providers.FeatureSetProviderBase.Data
+  nameWithType: FeatureSetProviderBase.Data
+- uid: CG.Features.Providers.FeatureSetProviderBase.Data*
+  name: Data
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_Data_
+  commentId: Overload:CG.Features.Providers.FeatureSetProviderBase.Data
+  isSpec: "True"
+  fullName: CG.Features.Providers.FeatureSetProviderBase.Data
+  nameWithType: FeatureSetProviderBase.Data
+- uid: CG.Features.Providers.FeatureSetProviderBase.GetReloadToken
   name: GetReloadToken()
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_GetReloadToken
-  commentId: M:CG.Features.IFeatureSetProvider.GetReloadToken
-  fullName: CG.Features.IFeatureSetProvider.GetReloadToken()
-  nameWithType: IFeatureSetProvider.GetReloadToken()
-- uid: CG.Features.IFeatureSetProvider.GetReloadToken*
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_GetReloadToken
+  commentId: M:CG.Features.Providers.FeatureSetProviderBase.GetReloadToken
+  fullName: CG.Features.Providers.FeatureSetProviderBase.GetReloadToken()
+  nameWithType: FeatureSetProviderBase.GetReloadToken()
+- uid: CG.Features.Providers.FeatureSetProviderBase.GetReloadToken*
   name: GetReloadToken
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_GetReloadToken_
-  commentId: Overload:CG.Features.IFeatureSetProvider.GetReloadToken
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_GetReloadToken_
+  commentId: Overload:CG.Features.Providers.FeatureSetProviderBase.GetReloadToken
   isSpec: "True"
-  fullName: CG.Features.IFeatureSetProvider.GetReloadToken
-  nameWithType: IFeatureSetProvider.GetReloadToken
-- uid: CG.Features.IFeatureSetProvider.Load
+  fullName: CG.Features.Providers.FeatureSetProviderBase.GetReloadToken
+  nameWithType: FeatureSetProviderBase.GetReloadToken
+- uid: CG.Features.Providers.FeatureSetProviderBase.Load
   name: Load()
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_Load
-  commentId: M:CG.Features.IFeatureSetProvider.Load
-  fullName: CG.Features.IFeatureSetProvider.Load()
-  nameWithType: IFeatureSetProvider.Load()
-- uid: CG.Features.IFeatureSetProvider.Load*
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_Load
+  commentId: M:CG.Features.Providers.FeatureSetProviderBase.Load
+  fullName: CG.Features.Providers.FeatureSetProviderBase.Load()
+  nameWithType: FeatureSetProviderBase.Load()
+- uid: CG.Features.Providers.FeatureSetProviderBase.Load*
   name: Load
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_Load_
-  commentId: Overload:CG.Features.IFeatureSetProvider.Load
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_Load_
+  commentId: Overload:CG.Features.Providers.FeatureSetProviderBase.Load
   isSpec: "True"
-  fullName: CG.Features.IFeatureSetProvider.Load
-  nameWithType: IFeatureSetProvider.Load
-- uid: CG.Features.IFeatureSetProvider.Set(System.String,System.Boolean)
+  fullName: CG.Features.Providers.FeatureSetProviderBase.Load
+  nameWithType: FeatureSetProviderBase.Load
+- uid: CG.Features.Providers.FeatureSetProviderBase.OnReload
+  name: OnReload()
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_OnReload
+  commentId: M:CG.Features.Providers.FeatureSetProviderBase.OnReload
+  fullName: CG.Features.Providers.FeatureSetProviderBase.OnReload()
+  nameWithType: FeatureSetProviderBase.OnReload()
+- uid: CG.Features.Providers.FeatureSetProviderBase.OnReload*
+  name: OnReload
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_OnReload_
+  commentId: Overload:CG.Features.Providers.FeatureSetProviderBase.OnReload
+  isSpec: "True"
+  fullName: CG.Features.Providers.FeatureSetProviderBase.OnReload
+  nameWithType: FeatureSetProviderBase.OnReload
+- uid: CG.Features.Providers.FeatureSetProviderBase.Set(System.String,System.Boolean)
   name: Set(String, Boolean)
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_Set_System_String_System_Boolean_
-  commentId: M:CG.Features.IFeatureSetProvider.Set(System.String,System.Boolean)
-  fullName: CG.Features.IFeatureSetProvider.Set(System.String, System.Boolean)
-  nameWithType: IFeatureSetProvider.Set(String, Boolean)
-- uid: CG.Features.IFeatureSetProvider.Set*
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_Set_System_String_System_Boolean_
+  commentId: M:CG.Features.Providers.FeatureSetProviderBase.Set(System.String,System.Boolean)
+  fullName: CG.Features.Providers.FeatureSetProviderBase.Set(System.String, System.Boolean)
+  nameWithType: FeatureSetProviderBase.Set(String, Boolean)
+- uid: CG.Features.Providers.FeatureSetProviderBase.Set*
   name: Set
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_Set_
-  commentId: Overload:CG.Features.IFeatureSetProvider.Set
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_Set_
+  commentId: Overload:CG.Features.Providers.FeatureSetProviderBase.Set
   isSpec: "True"
-  fullName: CG.Features.IFeatureSetProvider.Set
-  nameWithType: IFeatureSetProvider.Set
-- uid: CG.Features.IFeatureSetProvider.TryGet(System.String,System.Boolean@)
+  fullName: CG.Features.Providers.FeatureSetProviderBase.Set
+  nameWithType: FeatureSetProviderBase.Set
+- uid: CG.Features.Providers.FeatureSetProviderBase.TryGet(System.String,System.Boolean@)
   name: TryGet(String, out Boolean)
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_TryGet_System_String_System_Boolean__
-  commentId: M:CG.Features.IFeatureSetProvider.TryGet(System.String,System.Boolean@)
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_TryGet_System_String_System_Boolean__
+  commentId: M:CG.Features.Providers.FeatureSetProviderBase.TryGet(System.String,System.Boolean@)
   name.vb: TryGet(String, ByRef Boolean)
-  fullName: CG.Features.IFeatureSetProvider.TryGet(System.String, out System.Boolean)
-  fullName.vb: CG.Features.IFeatureSetProvider.TryGet(System.String, ByRef System.Boolean)
+  fullName: CG.Features.Providers.FeatureSetProviderBase.TryGet(System.String, out System.Boolean)
+  fullName.vb: CG.Features.Providers.FeatureSetProviderBase.TryGet(System.String, ByRef System.Boolean)
+  nameWithType: FeatureSetProviderBase.TryGet(String, out Boolean)
+  nameWithType.vb: FeatureSetProviderBase.TryGet(String, ByRef Boolean)
+- uid: CG.Features.Providers.FeatureSetProviderBase.TryGet*
+  name: TryGet
+  href: api/CG.Features.Providers.FeatureSetProviderBase.html#CG_Features_Providers_FeatureSetProviderBase_TryGet_
+  commentId: Overload:CG.Features.Providers.FeatureSetProviderBase.TryGet
+  isSpec: "True"
+  fullName: CG.Features.Providers.FeatureSetProviderBase.TryGet
+  nameWithType: FeatureSetProviderBase.TryGet
+- uid: CG.Features.Providers.IFeatureSetProvider
+  name: IFeatureSetProvider
+  href: api/CG.Features.Providers.IFeatureSetProvider.html
+  commentId: T:CG.Features.Providers.IFeatureSetProvider
+  fullName: CG.Features.Providers.IFeatureSetProvider
+  nameWithType: IFeatureSetProvider
+- uid: CG.Features.Providers.IFeatureSetProvider.GetReloadToken
+  name: GetReloadToken()
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_GetReloadToken
+  commentId: M:CG.Features.Providers.IFeatureSetProvider.GetReloadToken
+  fullName: CG.Features.Providers.IFeatureSetProvider.GetReloadToken()
+  nameWithType: IFeatureSetProvider.GetReloadToken()
+- uid: CG.Features.Providers.IFeatureSetProvider.GetReloadToken*
+  name: GetReloadToken
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_GetReloadToken_
+  commentId: Overload:CG.Features.Providers.IFeatureSetProvider.GetReloadToken
+  isSpec: "True"
+  fullName: CG.Features.Providers.IFeatureSetProvider.GetReloadToken
+  nameWithType: IFeatureSetProvider.GetReloadToken
+- uid: CG.Features.Providers.IFeatureSetProvider.Load
+  name: Load()
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_Load
+  commentId: M:CG.Features.Providers.IFeatureSetProvider.Load
+  fullName: CG.Features.Providers.IFeatureSetProvider.Load()
+  nameWithType: IFeatureSetProvider.Load()
+- uid: CG.Features.Providers.IFeatureSetProvider.Load*
+  name: Load
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_Load_
+  commentId: Overload:CG.Features.Providers.IFeatureSetProvider.Load
+  isSpec: "True"
+  fullName: CG.Features.Providers.IFeatureSetProvider.Load
+  nameWithType: IFeatureSetProvider.Load
+- uid: CG.Features.Providers.IFeatureSetProvider.Set(System.String,System.Boolean)
+  name: Set(String, Boolean)
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_Set_System_String_System_Boolean_
+  commentId: M:CG.Features.Providers.IFeatureSetProvider.Set(System.String,System.Boolean)
+  fullName: CG.Features.Providers.IFeatureSetProvider.Set(System.String, System.Boolean)
+  nameWithType: IFeatureSetProvider.Set(String, Boolean)
+- uid: CG.Features.Providers.IFeatureSetProvider.Set*
+  name: Set
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_Set_
+  commentId: Overload:CG.Features.Providers.IFeatureSetProvider.Set
+  isSpec: "True"
+  fullName: CG.Features.Providers.IFeatureSetProvider.Set
+  nameWithType: IFeatureSetProvider.Set
+- uid: CG.Features.Providers.IFeatureSetProvider.TryGet(System.String,System.Boolean@)
+  name: TryGet(String, out Boolean)
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_TryGet_System_String_System_Boolean__
+  commentId: M:CG.Features.Providers.IFeatureSetProvider.TryGet(System.String,System.Boolean@)
+  name.vb: TryGet(String, ByRef Boolean)
+  fullName: CG.Features.Providers.IFeatureSetProvider.TryGet(System.String, out System.Boolean)
+  fullName.vb: CG.Features.Providers.IFeatureSetProvider.TryGet(System.String, ByRef System.Boolean)
   nameWithType: IFeatureSetProvider.TryGet(String, out Boolean)
   nameWithType.vb: IFeatureSetProvider.TryGet(String, ByRef Boolean)
-- uid: CG.Features.IFeatureSetProvider.TryGet*
+- uid: CG.Features.Providers.IFeatureSetProvider.TryGet*
   name: TryGet
-  href: api/CG.Features.IFeatureSetProvider.html#CG_Features_IFeatureSetProvider_TryGet_
-  commentId: Overload:CG.Features.IFeatureSetProvider.TryGet
+  href: api/CG.Features.Providers.IFeatureSetProvider.html#CG_Features_Providers_IFeatureSetProvider_TryGet_
+  commentId: Overload:CG.Features.Providers.IFeatureSetProvider.TryGet
   isSpec: "True"
-  fullName: CG.Features.IFeatureSetProvider.TryGet
+  fullName: CG.Features.Providers.IFeatureSetProvider.TryGet
   nameWithType: IFeatureSetProvider.TryGet
-- uid: CG.Features.IFeatureSetSource
-  name: IFeatureSetSource
-  href: api/CG.Features.IFeatureSetSource.html
-  commentId: T:CG.Features.IFeatureSetSource
-  fullName: CG.Features.IFeatureSetSource
-  nameWithType: IFeatureSetSource
-- uid: CG.Features.IFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  name: Build(IFeatureSetBuilder)
-  href: api/CG.Features.IFeatureSetSource.html#CG_Features_IFeatureSetSource_Build_CG_Features_IFeatureSetBuilder_
-  commentId: M:CG.Features.IFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  fullName: CG.Features.IFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  nameWithType: IFeatureSetSource.Build(IFeatureSetBuilder)
-- uid: CG.Features.IFeatureSetSource.Build*
-  name: Build
-  href: api/CG.Features.IFeatureSetSource.html#CG_Features_IFeatureSetSource_Build_
-  commentId: Overload:CG.Features.IFeatureSetSource.Build
-  isSpec: "True"
-  fullName: CG.Features.IFeatureSetSource.Build
-  nameWithType: IFeatureSetSource.Build
-- uid: CG.Features.MemoryFeatureSetProvider
+- uid: CG.Features.Providers.MemoryFeatureSetProvider
   name: MemoryFeatureSetProvider
-  href: api/CG.Features.MemoryFeatureSetProvider.html
-  commentId: T:CG.Features.MemoryFeatureSetProvider
-  fullName: CG.Features.MemoryFeatureSetProvider
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html
+  commentId: T:CG.Features.Providers.MemoryFeatureSetProvider
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider
   nameWithType: MemoryFeatureSetProvider
-- uid: CG.Features.MemoryFeatureSetProvider.#ctor(CG.Features.Sources.MemoryFeatureSetSource)
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.#ctor(CG.Features.Sources.Sources.MemoryFeatureSetSource)
   name: MemoryFeatureSetProvider(MemoryFeatureSetSource)
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider__ctor_CG_Features_Sources_MemoryFeatureSetSource_
-  commentId: M:CG.Features.MemoryFeatureSetProvider.#ctor(CG.Features.Sources.MemoryFeatureSetSource)
-  fullName: CG.Features.MemoryFeatureSetProvider.MemoryFeatureSetProvider(CG.Features.Sources.MemoryFeatureSetSource)
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider__ctor_CG_Features_Sources_Sources_MemoryFeatureSetSource_
+  commentId: M:CG.Features.Providers.MemoryFeatureSetProvider.#ctor(CG.Features.Sources.Sources.MemoryFeatureSetSource)
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.MemoryFeatureSetProvider(CG.Features.Sources.Sources.MemoryFeatureSetSource)
   nameWithType: MemoryFeatureSetProvider.MemoryFeatureSetProvider(MemoryFeatureSetSource)
-- uid: CG.Features.MemoryFeatureSetProvider.#ctor*
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.#ctor*
   name: MemoryFeatureSetProvider
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider__ctor_
-  commentId: Overload:CG.Features.MemoryFeatureSetProvider.#ctor
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider__ctor_
+  commentId: Overload:CG.Features.Providers.MemoryFeatureSetProvider.#ctor
   isSpec: "True"
-  fullName: CG.Features.MemoryFeatureSetProvider.MemoryFeatureSetProvider
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.MemoryFeatureSetProvider
   nameWithType: MemoryFeatureSetProvider.MemoryFeatureSetProvider
-- uid: CG.Features.MemoryFeatureSetProvider.Add(System.String,System.Boolean)
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.Add(System.String,System.Boolean)
   name: Add(String, Boolean)
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider_Add_System_String_System_Boolean_
-  commentId: M:CG.Features.MemoryFeatureSetProvider.Add(System.String,System.Boolean)
-  fullName: CG.Features.MemoryFeatureSetProvider.Add(System.String, System.Boolean)
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider_Add_System_String_System_Boolean_
+  commentId: M:CG.Features.Providers.MemoryFeatureSetProvider.Add(System.String,System.Boolean)
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.Add(System.String, System.Boolean)
   nameWithType: MemoryFeatureSetProvider.Add(String, Boolean)
-- uid: CG.Features.MemoryFeatureSetProvider.Add*
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.Add*
   name: Add
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider_Add_
-  commentId: Overload:CG.Features.MemoryFeatureSetProvider.Add
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider_Add_
+  commentId: Overload:CG.Features.Providers.MemoryFeatureSetProvider.Add
   isSpec: "True"
-  fullName: CG.Features.MemoryFeatureSetProvider.Add
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.Add
   nameWithType: MemoryFeatureSetProvider.Add
-- uid: CG.Features.MemoryFeatureSetProvider.GetEnumerator
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.GetEnumerator
   name: GetEnumerator()
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider_GetEnumerator
-  commentId: M:CG.Features.MemoryFeatureSetProvider.GetEnumerator
-  fullName: CG.Features.MemoryFeatureSetProvider.GetEnumerator()
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider_GetEnumerator
+  commentId: M:CG.Features.Providers.MemoryFeatureSetProvider.GetEnumerator
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.GetEnumerator()
   nameWithType: MemoryFeatureSetProvider.GetEnumerator()
-- uid: CG.Features.MemoryFeatureSetProvider.GetEnumerator*
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.GetEnumerator*
   name: GetEnumerator
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider_GetEnumerator_
-  commentId: Overload:CG.Features.MemoryFeatureSetProvider.GetEnumerator
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider_GetEnumerator_
+  commentId: Overload:CG.Features.Providers.MemoryFeatureSetProvider.GetEnumerator
   isSpec: "True"
-  fullName: CG.Features.MemoryFeatureSetProvider.GetEnumerator
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.GetEnumerator
   nameWithType: MemoryFeatureSetProvider.GetEnumerator
-- uid: CG.Features.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator
   name: IEnumerable.GetEnumerator()
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider_System_Collections_IEnumerable_GetEnumerator
-  commentId: M:CG.Features.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:CG.Features.Providers.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator
   name.vb: System.Collections.IEnumerable.GetEnumerator()
-  fullName: CG.Features.MemoryFeatureSetProvider.System.Collections.IEnumerable.GetEnumerator()
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.System.Collections.IEnumerable.GetEnumerator()
   nameWithType: MemoryFeatureSetProvider.IEnumerable.GetEnumerator()
   nameWithType.vb: MemoryFeatureSetProvider.System.Collections.IEnumerable.GetEnumerator()
-- uid: CG.Features.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator*
+- uid: CG.Features.Providers.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator*
   name: IEnumerable.GetEnumerator
-  href: api/CG.Features.MemoryFeatureSetProvider.html#CG_Features_MemoryFeatureSetProvider_System_Collections_IEnumerable_GetEnumerator_
-  commentId: Overload:CG.Features.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator
+  href: api/CG.Features.Providers.MemoryFeatureSetProvider.html#CG_Features_Providers_MemoryFeatureSetProvider_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:CG.Features.Providers.MemoryFeatureSetProvider.System#Collections#IEnumerable#GetEnumerator
   isSpec: "True"
   name.vb: System.Collections.IEnumerable.GetEnumerator
-  fullName: CG.Features.MemoryFeatureSetProvider.System.Collections.IEnumerable.GetEnumerator
+  fullName: CG.Features.Providers.MemoryFeatureSetProvider.System.Collections.IEnumerable.GetEnumerator
   nameWithType: MemoryFeatureSetProvider.IEnumerable.GetEnumerator
   nameWithType.vb: MemoryFeatureSetProvider.System.Collections.IEnumerable.GetEnumerator
 - uid: CG.Features.Sources
@@ -655,35 +591,111 @@ references:
   commentId: N:CG.Features.Sources
   fullName: CG.Features.Sources
   nameWithType: CG.Features.Sources
-- uid: CG.Features.Sources.MemoryFeatureSetSource
-  name: MemoryFeatureSetSource
-  href: api/CG.Features.Sources.MemoryFeatureSetSource.html
-  commentId: T:CG.Features.Sources.MemoryFeatureSetSource
-  fullName: CG.Features.Sources.MemoryFeatureSetSource
-  nameWithType: MemoryFeatureSetSource
-- uid: CG.Features.Sources.MemoryFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+- uid: CG.Features.Sources.ChainedFeatureSetSource
+  name: ChainedFeatureSetSource
+  href: api/CG.Features.Sources.ChainedFeatureSetSource.html
+  commentId: T:CG.Features.Sources.ChainedFeatureSetSource
+  fullName: CG.Features.Sources.ChainedFeatureSetSource
+  nameWithType: ChainedFeatureSetSource
+- uid: CG.Features.Sources.ChainedFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
   name: Build(IFeatureSetBuilder)
-  href: api/CG.Features.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_MemoryFeatureSetSource_Build_CG_Features_IFeatureSetBuilder_
-  commentId: M:CG.Features.Sources.MemoryFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  fullName: CG.Features.Sources.MemoryFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
-  nameWithType: MemoryFeatureSetSource.Build(IFeatureSetBuilder)
-- uid: CG.Features.Sources.MemoryFeatureSetSource.Build*
+  href: api/CG.Features.Sources.ChainedFeatureSetSource.html#CG_Features_Sources_ChainedFeatureSetSource_Build_CG_Features_IFeatureSetBuilder_
+  commentId: M:CG.Features.Sources.ChainedFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  fullName: CG.Features.Sources.ChainedFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  nameWithType: ChainedFeatureSetSource.Build(IFeatureSetBuilder)
+- uid: CG.Features.Sources.ChainedFeatureSetSource.Build*
   name: Build
-  href: api/CG.Features.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_MemoryFeatureSetSource_Build_
-  commentId: Overload:CG.Features.Sources.MemoryFeatureSetSource.Build
+  href: api/CG.Features.Sources.ChainedFeatureSetSource.html#CG_Features_Sources_ChainedFeatureSetSource_Build_
+  commentId: Overload:CG.Features.Sources.ChainedFeatureSetSource.Build
   isSpec: "True"
-  fullName: CG.Features.Sources.MemoryFeatureSetSource.Build
+  fullName: CG.Features.Sources.ChainedFeatureSetSource.Build
+  nameWithType: ChainedFeatureSetSource.Build
+- uid: CG.Features.Sources.ChainedFeatureSetSource.FeatureSet
+  name: FeatureSet
+  href: api/CG.Features.Sources.ChainedFeatureSetSource.html#CG_Features_Sources_ChainedFeatureSetSource_FeatureSet
+  commentId: P:CG.Features.Sources.ChainedFeatureSetSource.FeatureSet
+  fullName: CG.Features.Sources.ChainedFeatureSetSource.FeatureSet
+  nameWithType: ChainedFeatureSetSource.FeatureSet
+- uid: CG.Features.Sources.ChainedFeatureSetSource.FeatureSet*
+  name: FeatureSet
+  href: api/CG.Features.Sources.ChainedFeatureSetSource.html#CG_Features_Sources_ChainedFeatureSetSource_FeatureSet_
+  commentId: Overload:CG.Features.Sources.ChainedFeatureSetSource.FeatureSet
+  isSpec: "True"
+  fullName: CG.Features.Sources.ChainedFeatureSetSource.FeatureSet
+  nameWithType: ChainedFeatureSetSource.FeatureSet
+- uid: CG.Features.Sources.FeatureSetSourceBase
+  name: FeatureSetSourceBase
+  href: api/CG.Features.Sources.FeatureSetSourceBase.html
+  commentId: T:CG.Features.Sources.FeatureSetSourceBase
+  fullName: CG.Features.Sources.FeatureSetSourceBase
+  nameWithType: FeatureSetSourceBase
+- uid: CG.Features.Sources.FeatureSetSourceBase.Build(CG.Features.IFeatureSetBuilder)
+  name: Build(IFeatureSetBuilder)
+  href: api/CG.Features.Sources.FeatureSetSourceBase.html#CG_Features_Sources_FeatureSetSourceBase_Build_CG_Features_IFeatureSetBuilder_
+  commentId: M:CG.Features.Sources.FeatureSetSourceBase.Build(CG.Features.IFeatureSetBuilder)
+  fullName: CG.Features.Sources.FeatureSetSourceBase.Build(CG.Features.IFeatureSetBuilder)
+  nameWithType: FeatureSetSourceBase.Build(IFeatureSetBuilder)
+- uid: CG.Features.Sources.FeatureSetSourceBase.Build*
+  name: Build
+  href: api/CG.Features.Sources.FeatureSetSourceBase.html#CG_Features_Sources_FeatureSetSourceBase_Build_
+  commentId: Overload:CG.Features.Sources.FeatureSetSourceBase.Build
+  isSpec: "True"
+  fullName: CG.Features.Sources.FeatureSetSourceBase.Build
+  nameWithType: FeatureSetSourceBase.Build
+- uid: CG.Features.Sources.IFeatureSetSource
+  name: IFeatureSetSource
+  href: api/CG.Features.Sources.IFeatureSetSource.html
+  commentId: T:CG.Features.Sources.IFeatureSetSource
+  fullName: CG.Features.Sources.IFeatureSetSource
+  nameWithType: IFeatureSetSource
+- uid: CG.Features.Sources.IFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  name: Build(IFeatureSetBuilder)
+  href: api/CG.Features.Sources.IFeatureSetSource.html#CG_Features_Sources_IFeatureSetSource_Build_CG_Features_IFeatureSetBuilder_
+  commentId: M:CG.Features.Sources.IFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  fullName: CG.Features.Sources.IFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  nameWithType: IFeatureSetSource.Build(IFeatureSetBuilder)
+- uid: CG.Features.Sources.IFeatureSetSource.Build*
+  name: Build
+  href: api/CG.Features.Sources.IFeatureSetSource.html#CG_Features_Sources_IFeatureSetSource_Build_
+  commentId: Overload:CG.Features.Sources.IFeatureSetSource.Build
+  isSpec: "True"
+  fullName: CG.Features.Sources.IFeatureSetSource.Build
+  nameWithType: IFeatureSetSource.Build
+- uid: CG.Features.Sources.Sources
+  name: CG.Features.Sources.Sources
+  href: api/CG.Features.Sources.Sources.html
+  commentId: N:CG.Features.Sources.Sources
+  fullName: CG.Features.Sources.Sources
+  nameWithType: CG.Features.Sources.Sources
+- uid: CG.Features.Sources.Sources.MemoryFeatureSetSource
+  name: MemoryFeatureSetSource
+  href: api/CG.Features.Sources.Sources.MemoryFeatureSetSource.html
+  commentId: T:CG.Features.Sources.Sources.MemoryFeatureSetSource
+  fullName: CG.Features.Sources.Sources.MemoryFeatureSetSource
+  nameWithType: MemoryFeatureSetSource
+- uid: CG.Features.Sources.Sources.MemoryFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  name: Build(IFeatureSetBuilder)
+  href: api/CG.Features.Sources.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_Sources_MemoryFeatureSetSource_Build_CG_Features_IFeatureSetBuilder_
+  commentId: M:CG.Features.Sources.Sources.MemoryFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  fullName: CG.Features.Sources.Sources.MemoryFeatureSetSource.Build(CG.Features.IFeatureSetBuilder)
+  nameWithType: MemoryFeatureSetSource.Build(IFeatureSetBuilder)
+- uid: CG.Features.Sources.Sources.MemoryFeatureSetSource.Build*
+  name: Build
+  href: api/CG.Features.Sources.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_Sources_MemoryFeatureSetSource_Build_
+  commentId: Overload:CG.Features.Sources.Sources.MemoryFeatureSetSource.Build
+  isSpec: "True"
+  fullName: CG.Features.Sources.Sources.MemoryFeatureSetSource.Build
   nameWithType: MemoryFeatureSetSource.Build
-- uid: CG.Features.Sources.MemoryFeatureSetSource.InitialData
+- uid: CG.Features.Sources.Sources.MemoryFeatureSetSource.InitialData
   name: InitialData
-  href: api/CG.Features.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_MemoryFeatureSetSource_InitialData
-  commentId: P:CG.Features.Sources.MemoryFeatureSetSource.InitialData
-  fullName: CG.Features.Sources.MemoryFeatureSetSource.InitialData
+  href: api/CG.Features.Sources.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_Sources_MemoryFeatureSetSource_InitialData
+  commentId: P:CG.Features.Sources.Sources.MemoryFeatureSetSource.InitialData
+  fullName: CG.Features.Sources.Sources.MemoryFeatureSetSource.InitialData
   nameWithType: MemoryFeatureSetSource.InitialData
-- uid: CG.Features.Sources.MemoryFeatureSetSource.InitialData*
+- uid: CG.Features.Sources.Sources.MemoryFeatureSetSource.InitialData*
   name: InitialData
-  href: api/CG.Features.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_MemoryFeatureSetSource_InitialData_
-  commentId: Overload:CG.Features.Sources.MemoryFeatureSetSource.InitialData
+  href: api/CG.Features.Sources.Sources.MemoryFeatureSetSource.html#CG_Features_Sources_Sources_MemoryFeatureSetSource_InitialData_
+  commentId: Overload:CG.Features.Sources.Sources.MemoryFeatureSetSource.InitialData
   isSpec: "True"
-  fullName: CG.Features.Sources.MemoryFeatureSetSource.InitialData
+  fullName: CG.Features.Sources.Sources.MemoryFeatureSetSource.InitialData
   nameWithType: MemoryFeatureSetSource.InitialData
