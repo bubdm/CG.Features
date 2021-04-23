@@ -1,6 +1,7 @@
-﻿using System;
+﻿using CG.Features.Providers;
+using System;
 
-namespace CG.Features
+namespace CG.Features.Sources
 {
     /// <summary>
     /// This interface represents an object that is a source of feature set 

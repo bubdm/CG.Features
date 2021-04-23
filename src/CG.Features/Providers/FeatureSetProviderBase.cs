@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace CG.Features
+namespace CG.Features.Providers
 {
     /// <summary>
     /// This interface represents an object that provides feature set key/values 

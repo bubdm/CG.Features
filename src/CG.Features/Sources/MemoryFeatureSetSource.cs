@@ -1,7 +1,8 @@
-﻿using System;
+﻿using CG.Features.Providers;
+using System;
 using System.Collections.Generic;
 
-namespace CG.Features.Sources
+namespace CG.Features.Sources.Sources
 {
     /// <summary>
     /// This class is an in-memory feature set source.

@@ -1,4 +1,5 @@
 ﻿using CG.Features.Properties;
+using CG.Features.Providers;
 using CG.Validations;
 using Microsoft.Extensions.Primitives;
 using System;

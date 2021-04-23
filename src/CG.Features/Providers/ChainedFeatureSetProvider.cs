@@ -1,6 +1,7 @@
-﻿using System;
+﻿using CG.Features.Sources;
+using System;
 
-namespace CG.Features
+namespace CG.Features.Providers
 {
     /// <summary>
     /// This class is chained feature set provider.

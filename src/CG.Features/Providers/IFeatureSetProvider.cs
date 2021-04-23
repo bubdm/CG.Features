@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Primitives;
 using System;
 
-namespace CG.Features
+namespace CG.Features.Providers
 {
     /// <summary>
     /// This interface represents an object that provides feature set key/values 
