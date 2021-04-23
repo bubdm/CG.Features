@@ -1,4 +1,10 @@
-﻿using CG.Features.Sources;
+﻿// Portions copyright (c) .NET Foundation. All rights reserved.
+// Licensed under the Apache License, Version 2.0. See Apache-LICENSE.txt in the project root for license information.
+
+// All changes and/or additions copyright (c) CODEGATOR. All rights reserved.
+// Licensed under the MIT license. See MIT-LICENSE.md in the project root for license information.
+
+using CG.Features.Sources;
 using CG.Features.Sources.Sources;
 using CG.Validations;
 using System;
@@ -88,6 +94,21 @@ namespace CG.Features
 
             // Return the builder.
             return featureSetBuilder;
+        }
+
+        // *******************************************************************
+
+        /// <summary>
+        /// This method adds a new configuration source.
+        /// </summary>
+        /// <param name="builder">The <see cref="IFeatureSetBuilder"/> to add to.</param>
+        /// <param name="configureSource">Configures the source secrets.</param>
+        /// <returns>The <see cref="IFeatureSetBuilder"/>.</returns>
+        public static IFeatureSetBuilder Add<TSource>(this IFeatureSetBuilder builder, Action<TSource> configureSource) where TSource : IFeatureSetSource, new()
+        {
+            var source = new TSource();
+            configureSource?.Invoke(source);
+            return builder.Add(source);
         }
 
         #endregion

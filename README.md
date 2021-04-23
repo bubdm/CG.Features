@@ -24,3 +24,10 @@ If you've spotted a bug in the code please use the project Issues [HERE](https:/
 There is developer documentation [HERE](https://codegator.github.io/CG.Features/)
 
 We also blog about projects like this one on our website, [HERE](http://www.codegator.com)
+
+#### Legalise:
+This project is heavily inspired by the Microsoft.Extensions.Configuration.Json library, which is copyright (c) .NET Foundation. All rights reserved. Licensed under the Apache License, Version 2.0. See Apache-LICENSE.txt in the project root for license information. [HERE](https://github.com/aspnet/Configuration) is the link to that code.
+
+We have heavily modified the original intent of that Microsoft library, to function for feature sets instead of configurations. All our changes and/or additions are copyright(c) CODEGATOR. All rights reserved. Licensed under the MIT License. See MIT-LICENSE.md in the project root for license information.
+
+Our bug are ours, so complain to us, not to Microsoft.

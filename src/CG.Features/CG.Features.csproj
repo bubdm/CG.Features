@@ -8,7 +8,9 @@
     <Description>This package contains feature extensions used by other CodeGator projects.
 
 Platforms supported:
-      .NET 5.x or above</Description>
+      .NET 5.x or above
+
+Portions of this code copyright (c) .NET Foundation. All rights reserved. Licensed under the Apache License, Version 2.0.</Description>
     <Copyright>Copyright © 2021 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Features</PackageProjectUrl>

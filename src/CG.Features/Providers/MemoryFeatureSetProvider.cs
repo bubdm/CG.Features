@@ -1,4 +1,10 @@
-﻿using CG.Features.Sources;
+﻿// Portions copyright (c) .NET Foundation. All rights reserved.
+// Licensed under the Apache License, Version 2.0. See Apache-LICENSE.txt in the project root for license information.
+
+// All changes and/or additions copyright (c) CODEGATOR. All rights reserved.
+// Licensed under the MIT license. See MIT-LICENSE.md in the project root for license information.
+
+using CG.Features.Sources;
 using CG.Features.Sources.Sources;
 using System;
 using System.Collections.Generic;
