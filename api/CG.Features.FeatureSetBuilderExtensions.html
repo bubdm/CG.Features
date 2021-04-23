@@ -124,6 +124,71 @@ type.</p>
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="CG_Features_FeatureSetBuilderExtensions_Add_" data-uid="CG.Features.FeatureSetBuilderExtensions.Add*"></a>
+  <h4 id="CG_Features_FeatureSetBuilderExtensions_Add__1_CG_Features_IFeatureSetBuilder_System_Action___0__" data-uid="CG.Features.FeatureSetBuilderExtensions.Add``1(CG.Features.IFeatureSetBuilder,System.Action{``0})">Add&lt;TSource&gt;(IFeatureSetBuilder, Action&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>This method adds a new configuration source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IFeatureSetBuilder Add&lt;TSource&gt;(this IFeatureSetBuilder builder, Action&lt;TSource&gt; configureSource)
+    where TSource : IFeatureSetSource, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CG.Features.IFeatureSetBuilder.html">IFeatureSetBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>The <a class="xref" href="CG.Features.IFeatureSetBuilder.html">IFeatureSetBuilder</a> to add to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;TSource&gt;</td>
+        <td><span class="parametername">configureSource</span></td>
+        <td><p>Configures the source secrets.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CG.Features.IFeatureSetBuilder.html">IFeatureSetBuilder</a></td>
+        <td><p>The <a class="xref" href="CG.Features.IFeatureSetBuilder.html">IFeatureSetBuilder</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="CG_Features_FeatureSetBuilderExtensions_AddFeatureSet_" data-uid="CG.Features.FeatureSetBuilderExtensions.AddFeatureSet*"></a>
   <h4 id="CG_Features_FeatureSetBuilderExtensions_AddFeatureSet_CG_Features_IFeatureSetBuilder_CG_Features_IFeatureSet_" data-uid="CG.Features.FeatureSetBuilderExtensions.AddFeatureSet(CG.Features.IFeatureSetBuilder,CG.Features.IFeatureSet)">AddFeatureSet(IFeatureSetBuilder, IFeatureSet)</h4>
   <div class="markdown level1 summary"><p>This method adds an existing feature set to <code data-dev-comment-type="paramref" class="paramref">featureSetBuilder</code>.</p>

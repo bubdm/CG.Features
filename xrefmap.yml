@@ -148,6 +148,22 @@ references:
   commentId: T:CG.Features.FeatureSetBuilderExtensions
   fullName: CG.Features.FeatureSetBuilderExtensions
   nameWithType: FeatureSetBuilderExtensions
+- uid: CG.Features.FeatureSetBuilderExtensions.Add*
+  name: Add
+  href: api/CG.Features.FeatureSetBuilderExtensions.html#CG_Features_FeatureSetBuilderExtensions_Add_
+  commentId: Overload:CG.Features.FeatureSetBuilderExtensions.Add
+  isSpec: "True"
+  fullName: CG.Features.FeatureSetBuilderExtensions.Add
+  nameWithType: FeatureSetBuilderExtensions.Add
+- uid: CG.Features.FeatureSetBuilderExtensions.Add``1(CG.Features.IFeatureSetBuilder,System.Action{``0})
+  name: Add<TSource>(IFeatureSetBuilder, Action<TSource>)
+  href: api/CG.Features.FeatureSetBuilderExtensions.html#CG_Features_FeatureSetBuilderExtensions_Add__1_CG_Features_IFeatureSetBuilder_System_Action___0__
+  commentId: M:CG.Features.FeatureSetBuilderExtensions.Add``1(CG.Features.IFeatureSetBuilder,System.Action{``0})
+  name.vb: Add(Of TSource)(IFeatureSetBuilder, Action(Of TSource))
+  fullName: CG.Features.FeatureSetBuilderExtensions.Add<TSource>(CG.Features.IFeatureSetBuilder, System.Action<TSource>)
+  fullName.vb: CG.Features.FeatureSetBuilderExtensions.Add(Of TSource)(CG.Features.IFeatureSetBuilder, System.Action(Of TSource))
+  nameWithType: FeatureSetBuilderExtensions.Add<TSource>(IFeatureSetBuilder, Action<TSource>)
+  nameWithType.vb: FeatureSetBuilderExtensions.Add(Of TSource)(IFeatureSetBuilder, Action(Of TSource))
 - uid: CG.Features.FeatureSetBuilderExtensions.AddFeatureSet(CG.Features.IFeatureSetBuilder,CG.Features.IFeatureSet)
   name: AddFeatureSet(IFeatureSetBuilder, IFeatureSet)
   href: api/CG.Features.FeatureSetBuilderExtensions.html#CG_Features_FeatureSetBuilderExtensions_AddFeatureSet_CG_Features_IFeatureSetBuilder_CG_Features_IFeatureSet_
