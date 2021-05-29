@@ -104,7 +104,10 @@ namespace CG.Features
         /// <param name="builder">The <see cref="IFeatureSetBuilder"/> to add to.</param>
         /// <param name="configureSource">Configures the source secrets.</param>
         /// <returns>The <see cref="IFeatureSetBuilder"/>.</returns>
-        public static IFeatureSetBuilder Add<TSource>(this IFeatureSetBuilder builder, Action<TSource> configureSource) where TSource : IFeatureSetSource, new()
+        public static IFeatureSetBuilder Add<TSource>(
+            this IFeatureSetBuilder builder, 
+            Action<TSource> configureSource
+            ) where TSource : FeatureSetSourceBase, new()
         {
             var source = new TSource();
             configureSource?.Invoke(source);

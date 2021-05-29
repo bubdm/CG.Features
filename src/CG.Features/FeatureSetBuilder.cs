@@ -28,7 +28,7 @@ namespace CG.Features
         /// Gets a key/value collection that can be used to share data between the <see cref="IFeatureSetBuilder"/>
         /// and the registered <see cref="IFeatureSetSource"/>s.
         /// </summary>
-        public IDictionary<string, object> Properties { get; }
+        public IDictionary<string, object> Properties { get; } = new Dictionary<string, object>();
 
         /// <summary>
         /// This property returns the sources used to obtain feature set values.
