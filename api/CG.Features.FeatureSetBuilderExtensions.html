@@ -132,7 +132,7 @@ type.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IFeatureSetBuilder Add&lt;TSource&gt;(this IFeatureSetBuilder builder, Action&lt;TSource&gt; configureSource)
-    where TSource : IFeatureSetSource, new()</code></pre>
+    where TSource : FeatureSetSourceBase, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
