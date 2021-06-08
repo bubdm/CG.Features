@@ -13,222 +13,6 @@
       "is_incremental": false
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.FeatureSet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.FeatureSet.html",
-          "hash": "CU3Zu0yxg1mqYbejoG6rTr91OtOFEBjbQiqOtFMXRto="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.FeatureSetBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.FeatureSetBuilder.html",
-          "hash": "isO3qcF5JUdsC3lqCqBxKbpNuMrSGKTk5Dn4Cwl3Z28="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.FeatureSetBuilderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.FeatureSetBuilderExtensions.html",
-          "hash": "ZRWIci874rYQ0lpqh2MuzRwTvlIDiz3wClBKZEr0Qoc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.FeatureSetReloadToken.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.FeatureSetReloadToken.html",
-          "hash": "65/qFhTCRZ9N0IOGPvMC2HtUKZxLPjab1g9xcDJmMVM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.IFeatureSet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.IFeatureSet.html",
-          "hash": "q3ioOmPG9Oy1eTO6oW1b2iQB6Uv4IN+1D92Rdr9Ipu8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.IFeatureSetBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.IFeatureSetBuilder.html",
-          "hash": "ibdAFMrjeEF/f9UAVb2KvDlnRwx/n9k+B/zakTZq398="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Providers.ChainedFeatureSetProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Providers.ChainedFeatureSetProvider.html",
-          "hash": "4eJSUI+fKwnB2Ht5RnaErJ50EShaxVVANPm+g65lcmU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Providers.FeatureSetProviderBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Providers.FeatureSetProviderBase.html",
-          "hash": "GmH+9WuSewAdIs//SRuPDAIBq1efrrpNG/eKKJsIvz0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Providers.IFeatureSetProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Providers.IFeatureSetProvider.html",
-          "hash": "fUM1qJ+Av19+Xext8iVJvuKPAs8VTRDzcndcoB0RmFc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Providers.MemoryFeatureSetProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Providers.MemoryFeatureSetProvider.html",
-          "hash": "vymPbo1bUFH18v6A0+SfX0Bv7fI4YqQGuGYot1nDufc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Providers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Providers.html",
-          "hash": "9hJrQ51+vsCzkeZfzHa4HzCWx5Noh9kzGFYE/J9u19o="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Sources.ChainedFeatureSetSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Sources.ChainedFeatureSetSource.html",
-          "hash": "9PVjDjeIJx8z07mZ5FeRDPTKILww3F42sffW0sxUIF8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Sources.FeatureSetSourceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Sources.FeatureSetSourceBase.html",
-          "hash": "krWRqu5f+MGQ6oIePUFth7sbhiHKSwwRfuhPWqXcJ8w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Sources.IFeatureSetSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Sources.IFeatureSetSource.html",
-          "hash": "dcHPUamXGqc4DjKyA+W0kTEIYtikhRa5xtidLsujNio="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Sources.Sources.MemoryFeatureSetSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Sources.Sources.MemoryFeatureSetSource.html",
-          "hash": "s277iWN4b/P+8KyYnRMpTpiMIMPAq3NSz/3Cn0Mxc9k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Sources.Sources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Sources.Sources.html",
-          "hash": "sqqRmaRLV/XChK9M5H1rKOLwM3kg3mP1daUoZS2pEAA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.Sources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.Sources.html",
-          "hash": "rOBQ/3H2VidzMd8zIaKdoYQuBdwFVyEV0mw1D47Y760="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Features.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Features.html",
-          "hash": "YvvuCm1DN9livL/N5mWVFbZStrUy3ZfZq3v0Xi0Hf40="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -241,12 +25,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KuBRYJGvlrXZqAvj4JP3rcDDKIJi5+e9Jm8U6yJHvsk="
+          "hash": "n+HfZL3mOX8Yn2xm8apoiB7B0XTRnlTmkQuAY2hpJOI="
         }
       },
       "is_incremental": false,
@@ -333,12 +120,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "0ZtSsrNwAhua+UOuWefMMJcxpNM7ZAkUu5qLJFqe3r8="
+          "hash": "DWbc3ZvqIli3pVgoXbyvZqzMQCmwG3SZ2G6N1PeVZEE="
         }
       },
       "is_incremental": false,
@@ -360,12 +150,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 18,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
