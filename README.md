@@ -5,6 +5,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Features.svg?style=flat)](https://nuget.org/packages/CG.Features)
 ![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Features/53)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Features/discussions)
+[![CG.Features on fuget.org](https://www.fuget.org/packages/CG.Features/badge.svg)](https://www.fuget.org/packages/CG.Features)
 
 #### What does it do?
 The package contains feature extensions used by other CodeGator packages.
@@ -19,6 +20,8 @@ PM> Install-Package CG.Features
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Features/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Features/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Features/)
